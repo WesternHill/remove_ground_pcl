@@ -4,5 +4,5 @@ services:
     build: .
     volumes:
       - ./src:/mnt/host/src
-      - ./sample_pcd:/mnt/host/dataset
+      - ~/develop/dataset/kitti/kitti_for_pointpillar/kitti/testing/velodyne:/mnt/host/dataset
     tty: true
